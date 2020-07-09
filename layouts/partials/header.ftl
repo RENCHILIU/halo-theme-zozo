@@ -4,7 +4,7 @@
       <h1>
         <a href="${blog_url!}">
           <span>${blog_title!}</span>
-          <img src="${theme_base!}/static/images/logo.gif"/>
+          <img style="width:200px" src="${theme_base!}/static/images/logo.gif"/>
         </a>
       </h1>
     </div>
