@@ -1,5 +1,5 @@
 <#include "layouts/partials/head.ftl">
-<@head title="标签 · ${blog_title!}" canonical="${tags_url!}" />
+<@head title="tags · ${blog_title!}" canonical="${tags_url!}" />
 <body>
 <div class="main animated">
     <#include "layouts/partials/nav.ftl">

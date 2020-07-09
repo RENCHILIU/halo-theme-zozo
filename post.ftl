@@ -27,7 +27,7 @@
                     </#if>
                 </div>
             </div>
-            <!-- Valine 评论系统 -->
+            <!-- Valine comment -->
             <#include "layouts/partials/comments.ftl">
             <@comment post=post type="post" />
         </div>

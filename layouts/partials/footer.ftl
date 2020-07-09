@@ -5,7 +5,7 @@
   </div>
 
   <div class="footer_slogan">
-    <span>${settings.footer_slogan!'我的精神家园'}</span>
+    <span>${settings.footer_slogan!'-End-'}</span>
   </div>
 
   <@global.footer_info />

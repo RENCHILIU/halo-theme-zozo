@@ -1,5 +1,5 @@
 <#include "layouts/partials/head.ftl">
-<@head title="分类 · ${blog_title!}" canonical="${categories_url!}" />
+<@head title="Categories · ${blog_title!}" canonical="${categories_url!}" />
 <body>
 <div class="main animated">
     <#include "layouts/partials/nav.ftl">

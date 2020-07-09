@@ -15,7 +15,7 @@
                 <div class="post_footer">
                 </div>
             </div>
-            <!-- Valine 评论系统 -->
+            <!-- Valine comment -->
             <#include "layouts/partials/comments.ftl">
             <@comment post=sheet type="sheet" />
         </div>

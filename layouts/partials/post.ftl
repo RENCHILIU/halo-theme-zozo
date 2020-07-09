@@ -36,12 +36,12 @@
     <@paginationTag method="index" page="${posts.number}" total="${posts.totalPages}" display="3">
       <#if pagination.hasPrev>
         <a href="${pagination.prevPageFullPath!}" class="pre">
-          返回上一页
+          Last Page
         </a>
       </#if>
       <#if pagination.hasNext>
         <a href="${pagination.nextPageFullPath!}" class="next">
-          阅读更多文章
+          More
         </a>
       </#if>
     </@paginationTag>

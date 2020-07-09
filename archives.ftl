@@ -1,5 +1,5 @@
 <#include "layouts/partials/head.ftl">
-<@head title="归档 · ${blog_title!}" canonical="${archives_url!}" />
+<@head title="Archive · ${blog_title!}" canonical="${archives_url!}" />
 <body>
 <div class="main animated">
     <#include "layouts/partials/nav.ftl">
@@ -25,12 +25,12 @@
                 <@paginationTag method="archives" page="${posts.number}" total="${posts.totalPages}" display="3">
                     <#if pagination.hasPrev>
                         <a href="${pagination.prevPageFullPath!}" class="pre">
-                            返回上一页
+                            Last Page
                         </a>
                     </#if>
                     <#if pagination.hasNext>
                         <a href="${pagination.nextPageFullPath!}" class="next">
-                            阅读更多文章
+                            More
                         </a>
                     </#if>
                 </@paginationTag>

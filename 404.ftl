@@ -8,7 +8,7 @@
         <div class="page_tags">
             <h1>(≥o≤)</h1>
             <h2>404 Page Not Found</h2>
-            <h3><a href="${blog_url!}">首页</a></h3>
+            <h3><a href="${blog_url!}">Home</a></h3>
         </div>
         <div class="pagination"></div>
     </div>
